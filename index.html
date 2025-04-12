@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - EasyFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: EasyFolio
+  * Template URL: https://bootstrapmade.com/easyfolio-bootstrap-portfolio-template/
+  * Updated: Feb 21 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h2>Hi there, I'm Munazzah Ajmal,</h2>
+            <p class="lead">"A Passionate MERN Stack Developer Crafting Modern Web Experiences"
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-outline">Let's Connect</a>
+              <a href="./assets//CV/Modern Minimalist CV Resume.pdf" class="btn btn-outline" download="">Downlaod CV</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="col-lg-6">
+              <div class="hero-image">
+                <img src="assets/img/my-img.png" alt="Portfolio Hero Image" 
+                     class="img-fluid blinking-border"
+                     data-aos="zoom-out" data-aos-delay="300">
+                <div class="shape-1"></div>
+                <div class="shape-2"></div>
+              </div>
+            </div>
+          </div>
+          
+          <style>
+            .blinking-border {
+              border: 6px solid transparent;
+              border-radius: 50%;
+              animation: borderBlink 2s infinite;
+              padding: 4px; /* optional: adds spacing around image inside the border */
+              box-sizing: border-box;
+            }
+          
+            @keyframes borderBlink {
+              0% {
+                border-color: #ff4d4d;
+              }
+              25% {
+                border-color: #4dff4d;
+              }
+              50% {
+                border-color: #4d4dff;
+              }
+              75% {
+                border-color: #ffff4d;
+              }
+              100% {
+                border-color: #ff4d4d;
+              }
+            }
+          </style>
+          
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>I am a passionate Full-Stack Developer who loves crafting efficient, scalable, and user-friendly web
+          applications.
+          With expertise in both front-end and back-end technologies, I enjoy turning ideas into reality.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <!-- <div class="col-lg-6 position-relative " data-aos="fade-right" data-aos-delay="200">
+            <div class="about-image">
+              <img src="" alt="Profile Image" class="img-fluid">
+            </div>
+          </div> -->
+
+          <div class="col-lg-12" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <span class="subtitle">About Me</span>
+
+              <h2>MERN Stack Developer</h2>
+
+              <p class="lead mb-4"> MERN Stack Developer with expertise in MongoDB, Express.js, React, and Node.js.
+                Full-Stack Developer skilled in both frontend and backend development.
+                Experienced in building scalable, efficient, and dynamic web applications.
+                Strong problem-solving skills with a focus on clean and maintainable code.</p>
+
+              <div class="personal-info">
+                <div class="row g-4">
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Name</span>
+                      <span class="value">Munazzah Ajmal</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Phone</span>
+                      <span class="value">+923116104824</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Age</span>
+                      <span class="value">23 Years</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Email</span>
+                      <span class="value">munaza451@gmail.com</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Occupation</span>
+                      <span class="value">Web Developer</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Nationality</span>
+                      <span class="value">Pakistan</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="signature mt-4">
+                <div class="signature-image">
+                  <img src="assets/img/maxresdefault.png" alt="" class="img-fluid">
+                </div>
+                <div class="signature-info">
+                  <h4>Munazaah Ajmal</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 skills-animation">
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>HTML</h3>
+              <p>HTML is the foundation of any portfolio website, providing the structure and content organization.</p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>CSS</h3>
+              <p>CSS is essential for designing an attractive and responsive portfolio.It helps in styling the
+                layout,colors, and animations.</p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>JavaScript</h3>
+              <p>JavaScript frameworks like React, developers can build responsive and interactive UI components.</p>
+              <span class="text-end d-block">80%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-box">
+              <h3>React</h3>
+              <p>React is a powerful JavaScript library for building dynamic and interactive portfolio websites. </p>
+              <span class="text-end d-block">55%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+
+    <section id="resume" class="resume section">
+
+
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>A resume in a portfolio highlights professional experience, skills, and achievements in a concise format.
+          It provides a quick overview of qualifications, education, and work history, helping potential employers or
+          clients assess expertise.</p>
+      </div> -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div class="resume-block" data-aos="fade-up">
+                <!-- <h2>Work Experience</h2>
+                <p class="lead">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
+                  adipiscing sem neque sed ipsum.</p> -->
+
+                <!-- <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Etiam Industries</h4>
+                      <span class="period">Jun, 2023 - Current</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Project Lead</h3>
+                      <p class="description">Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et
+                        quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
+                        consequatur neque etlon sader mart dila</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Nullam Corp</h4>
+                      <span class="period">2019 - 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Senior graphic design specialist</h3>
+                      <p class="description">
+                        Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas tempus.
+                      </p>
+                      <ul>
+                        <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                          communication materials</li>
+                        <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                          project. </li>
+                        <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of
+                          the design</li>
+                        <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                      </ul>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">Stepping Stone Ltd.</h4>
+                      <span class="period">2015-2019</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Graphic design specialist</h3>
+                      <p class="description">Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas
+                        tempus.</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+
+              <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                <h2>My Education</h2>
+                <p class="lead">The "My Education" section highlights my academic background and technical expertise.
+                  I am currently pursuing a Bachelor's degree in Computer Science (BSCS),
+                  which has provided me with a strong foundation in programming, algorithms, and software development.
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Islamiya University of BWP</h4>
+                      <span class="period">2023-2025</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Bachelor's degree in Computer Science (BSCS)</h3>
+                      <p class="description">The program provides a strong foundation in programming, software
+                        development, algorithms, and data structures. </p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Superior Clg BWP</h4>
+                      <span class="period">2019 - 2021</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">(BSc, 2 years Program)</h3>
+                      <p class="description">The degree provides a strong academic foundation in technical and
+                        analytical skills.
+                        Through this program, I have gained in-depth knowledge of programming, problem-solving</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">Gov Women clg BWP</h4>
+                      <span class="period">2016-2018</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">ICS</h3>
+                      <p class="description">It introduced me to core concepts like programming languages,
+                        databases, and computer fundamentals, sparking my interest in software development.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>A portfolio is a personal or professional website that showcases skills, projects, and achievements.
+          It serves as a digital resume, allowing potential clients or employers to explore work samples and expertise.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">All Work</li>
+              <li data-filter=".filter-web">Bootstrap</li>
+              <li data-filter=".filter-graphics">ReactJs</li>
+              <li data-filter=".filter-motion">TailwindCSS</li>
+              <li data-filter=".filter-brand">JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/projects/Capturepng1.PNG" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/projects/Capturepng1.PNG" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Bootstrap</span>
+                  <h3>Modern Dashboard Interface</h3>
+                  <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/projects/Capturepng.PNG" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/projects/Capturepng.PNG" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">ReactJs</span>
+                  <h3>Creative Brand Identity</h3>
+                  <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/picture.png" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/picture.png" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">TailwindCSS</span>
+                  <h3>Product Animation Reel</h3>
+                  <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/bootstrap.png" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/bootstrap.png" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">JavaScript</span>
+                  <h3>Luxury Brand Package</h3>
+                  <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/Capture.PNG" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/Capture.PNG" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Bootstrap</span>
+                  <h3>E-commerce Platform</h3>
+                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/projects/Capturepng3.PNG" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/projects/Capturepng3.PNG" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
+                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">ReactJs</span>
+                  <h3>Digital Art Collection</h3>
+                  <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials section light-background"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p>
+      </div> -->
+    <!-- End Section Title -->
+
+    <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "slidesPerView": 1,
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Sed ut perspiciatis unde omnis</h2>
+                    <p>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                      Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </p>
+                    <p>
+                      Beatae magnam dolore quia ipsum. Voluptatem totam et qui dolore dignissimos. Amet quia sapiente
+                      laudantium nihil illo et assumenda sit cupiditate. Nam perspiciatis perferendis minus consequatur.
+                      Enim ut eos quo.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-7.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Saul Goodman</h3>
+                        <span>Client</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-7.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Nemo enim ipsam voluptatem</h2>
+                    <p>
+                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                      malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    </p>
+                    <p>
+                      Dolorem excepturi esse qui amet maxime quibusdam aut repellendus voluptatum. Corrupti enim a
+                      repellat cumque est laborum fuga consequuntur. Dolorem nostrum deleniti quas voluptatem iure
+                      dolorum rerum. Repudiandae doloribus ut repellat harum vero aut. Modi aut velit aperiam aspernatur
+                      odit ut vitae.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-8.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Sara Wilsson</h3>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-8.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>
+                      Labore nostrum eos impedit
+                    </h2>
+                    <p>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                      minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    </p>
+                    <p>
+                      Itaque ut explicabo vero occaecati est quam rerum sed. Numquam tempora aut aut quaerat quia illum.
+                      Nobis quia autem odit ipsam numquam. Doloribus sit sint corporis eius totam fuga. Hic nostrum
+                      suscipit corrupti nam expedita adipisci aut optio.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-9.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Matt Brandon</h3>
+                        <span>Freelancer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-9.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Impedit dolor facilis nulla</h2>
+                    <p>
+                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                      tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    </p>
+                    <p>
+                      Omnis aspernatur accusantium qui delectus praesentium repellendus. Facilis sint odio aspernatur
+                      voluptas commodi qui qui qui pariatur. Corrupti deleniti itaque quaerat ipsum deleniti culpa
+                      tempora tempore. Et consequatur exercitationem hic aspernatur nobis est voluptatibus architecto
+                      laborum.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-10.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Jena Karlis</h3>
+                        <span>Store Owner</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-10.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="swiper-navigation w-100 d-flex align-items-center justify-content-center">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div> 
+    -->
+
+    </section>
+    <!-- /Testimonials Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>The Services section in my portfolio highlights the professional solutions I offer.
+          As a Full-Stack Developer and UI/UX Designer, I specialize in creating responsive websites, dynamic web
+          applications, and intuitive user experiences.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h3 class="fw-bold mb-4 servies-title">I am passionate about creating modern and user-friendly web
+              solutions. </h3>
+            <p class="mb-4"> My goal is to develop websites that are both visually appealing and highly functional,
+              ensuring smooth performance and easy navigation.</p>
+            <a href="#" class="btn btn-outline-primary">See all services</a>
+          </div>
+          <div class="col-lg-8">
+            <div class="row g-4">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item">
+                  <i class="bi bi-activity icon"></i>
+                  <h3><a href="service-details.html">Landing Page</a></h3>
+                  <p>I specialize in creating landing pages that are visually appealing, responsive,
+                    and optimized to capture user attention and drive conversions.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item">
+                  <i class="bi bi-easel icon"></i>
+                  <h3><a href="service-details.html">E-commerce website</a></h3>
+                  <p>For businesses, I develop e-commerce websites with secure payment gateways,
+                    product management, and a seamless shopping experience.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item">
+                  <i class="bi bi-broadcast icon"></i>
+                  <h3><a href="service-details.html">Custom website</a></h3>
+                  <p>I also build custom websites tailored to unique needs, ensuring functionality, scalability, and a
+                    modern design. </p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                  <h3><a href="service-details.html">Figma to HTML</a></h3>
+                  <p> Additionally, I offer Figma to HTML conversion services,
+                    transforming UI/UX designs into clean, pixel-perfect, and fully responsive code.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>The Frequently Asked Questions (FAQ) section in my portfolio provides quick answers to common queries about
+          my services, skills, and work process.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>1. What technologies do you specialize in?</h3>
+                <div class="faq-content">
+                  <p>I specialize in MERN Stack (MongoDB, Express.js, React, Node.js) for web development. Additionally,
+                    I have expertise in HTML, CSS, JavaScript, Redux Toolkit, Tailwind CSS, Bootstrap, and UI/UX design
+                    principles.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Do you offer both front-end and back-end development?</h3>
+                <div class="faq-content">
+                  <p>Yes! As a Full-Stack Developer, I handle both front-end and back-end development,
+                    ensuring a seamless and fully functional web application with optimized performance and great user
+                    experience.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Can you build custom web applications?</h3>
+                <div class="faq-content">
+                  <p>Absolutely! I develop custom web applications tailored to specific business needs,
+                    including e-commerce sites, admin dashboards, portfolio websites, and more.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>How long does it take to complete a project?</h3>
+                <div class="faq-content">
+                  <p>Project timelines vary based on complexity and requirements. A simple website may take 1-2 weeks,
+                    while a custom web application can take 4-6 weeks or more. I always discuss the timeline in detail
+                    before starting.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="content" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="display-5 mb-4">Contact Me</h2>
+              <p class="lead mb-4">If you have any questions, project inquiries, or collaboration opportunities, feel
+                free to reach out!
+                I am always open to discussing new ideas and bringing them to life with my Full-Stack Development</p>
+
+              <div class="contact-info mt-5">
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-envelope-at me-3"></i>
+                  <span>munaza451@gmail.com</span>
+                </div>
+
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-telephone me-3"></i>
+                  <span>+923116104824</span>
+                </div>
+
+                <div class="info-item d-flex mb-4">
+                  <i class="bi bi-geo-alt me-3"></i>
+                  <span>Bahawalpur, Pakistan</span>
+                </div>
+
+                <a href="#" class="map-link d-inline-flex align-items-center">
+                  Open Map
+                  <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-body p-4 p-lg-5">
+
+                <form action="forms/contact.php" method="post" class="php-email-form">
+                  <div class="row gy-4">
+
+                    <div class="col-12">
+                      <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    </div>
+
+                    <div class="col-12 ">
+                      <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="col-12">
+                      <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    </div>
+
+                    <div class="col-12">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                        required=""></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                      <button type="submit" class="btn btn-submit w-100">Submit Message</button>
+                    </div>
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
